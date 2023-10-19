@@ -1,0 +1,485 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Criando seu primeiro game - Senai Joinvlle 2023</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/album/">
+
+  <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+  <!-- Favicons -->
+
+  <meta name="theme-color" content="#712cf9">
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .b-example-divider {
+      height: 3rem;
+      background-color: rgba(0, 0, 0, .1);
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
+
+    .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+  </style>
+
+
+  <meta id="">
+</head>
+
+<body>
+
+  <header>
+    <div class="custom-gradient collapse" id="navbarHeader" style="">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4 class="text-white">Sobre</h4>
+            <p class="text-white">
+              Página dedicada ao portfólio dos jogos desenvolvidos pelos alunos do curso "Introdução aos Jogos Digitais
+              - Criando seu primeiro game", oferecido no Senai Joinville pelo Lab 365. <br>Professor: Fernando Baroni</p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4 class="text-white">Contato</h4>
+            <ul class="list-unstyled">
+              <li><a href="https://www.instagram.com/lab365_/" class="text-white">Instagram Lab365</a></li>
+           
+              <li><a href="mailto:fhbaroni@gmail.com" class="text-white">Email Professor: fhbaroni@gmail.com</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar navbar-light bg-light shadow-sm">
+      <div class="container">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <img src="../assets/image-removebg-preview.png"  height="100"> 
+          <strong>Criando seu primeiro Game - Senai Joinville </strong>
+        </a>
+        <img src="../assets/lab-removebg-preview.png"  height="90"> 
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
+          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="custom-gradient-vert">
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+    
+            <h1 class="fw-light">Jogos Desenvolvidos</h1>
+            <p class="lead ">Ao longo do curso, nossos alunos mergulharam no emocionante universo design de jogos e programação, explorando ferramentas criativas como Libresprite e Construct3 para dar vida às suas ideias de jogos. Abaixo,
+              apresentamos uma seleção dos jogos que surgiram durante esse período de aprendizado.</p>
+            <!-- <p>
+            <a href="#" class="btn btn-primary my-2">Main call to action</a>
+            <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+          </p> -->
+          </div>
+        </div>
+      </section>
+
+      <div class="album py-5 ">
+        <div class="container">
+
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm"><a href="https://www.construct.net/en/free-online-games/hibernardo-57339/play"
+                  target="_blank">
+                  <img src="../assets/hibernardo.png" alt="Sua Imagem" class="card-img-top" height="275"> </a>
+                <div class="card-body">
+                  <h3>Hibernardo</h3>
+                  <p class="card-text">Num habitat congelante, ajude Bernardo, o pinguim a fugir com os peixes do urso
+                    que está furioso atrás dele. </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                        href="https://www.construct.net/en/free-online-games/hibernardo-57339/play" target="_blank">
+                        Jogar</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm"><a
+                  href="https://www.construct.net/en/free-online-games/eternal-run-57157/play" target="_blank">
+                  <img src="../assets/eternal.png" alt="Sua Imagem" class="card-img-top" height="275"> </a>
+                <div class="card-body">
+                  <h3>Eternal Run</h3>
+                  <p class="card-text">Um agente é enviado para uma vila, onde descobre um vírus zumbi em galinhas, você
+                    precisa atirar e acabar com os zumbis para poder salvar o mundo.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                        href="https://www.construct.net/en/free-online-games/eternal-run-57157/play" target="_blank">
+                        Jogar</a></button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+            <div class="col">
+              <div class="card shadow-sm"><a
+                  href="https://www.construct.net/en/free-online-games/medos-noturnos-57272/play" target="_blank">
+                  <img src="../assets/night.png" alt="Sua Imagem" class="card-img-top" height="275"> </a>
+                <div class="card-body">
+                  <h3>Medos Noturnos</h3>
+                  <p class="card-text">Esse é um jogo onde você ajuda uma garotinha a escapar e superar seus medos e
+                    seus pesadelos na semana de Halloween.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                        href="https://www.construct.net/en/free-online-games/medos-noturnos-57272/play" target="_blank">
+                        Jogar</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm"><a
+                  href="https://www.construct.net/en/free-online-games/monkey-escape-57243/play" target="_blank">
+                  <img src="../assets/monkey.png" alt="Sua Imagem" class="card-img-top" height="275"> </a>
+                <div class="card-body">
+                  <h3>Monkey Escape</h3>
+                  <p class="card-text">Monkey Escape is a game with a thief monkey who needs to escape a big prison on
+                    an island, but to do so he has to go trough many challenges.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                        href="https://www.construct.net/en/free-online-games/monkey-escape-57243/play" target="_blank">
+                        Jogar</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="col">
+              <div class="card shadow-sm"><a
+                  href="https://www.construct.net/en/free-online-games/sobrevivendo-floresta-57280/play"
+                  target="_blank">
+                  <img src="../assets/forest.png" alt="Sua Imagem" class="card-img-top" height="275"> </a>
+                <div class="card-body">
+                  <h3>Sobrevivendo na floresta</h3>
+                  <p class="card-text">
+                    Kawame Noskoski, um explorador, rouba um amuleto de uma caverna na floresta onde há uma lenda sobre
+                    um monstro. Com isso
+                    ele enfrenta algo inesquecível.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                        href="https://www.construct.net/en/free-online-games/sobrevivendo-floresta-57280/play"
+                        target="_blank"> Jogar</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col">
+              <div class="card shadow-sm"><a
+                  href="https://www.construct.net/en/free-online-games/time-voyager-57154/play" target="_blank">
+                  <img src="../assets/voyager.png" alt="Sua Imagem" class="card-img-top" height="275"> </a>
+                <div class="card-body">
+                  <h3>Time Voyager</h3>
+                  <p class="card-text">
+                    O jogo segue Harvid, um príncipe medieval, que é teletransportado para diferentes dimensões e
+                    precisa escapar de criaturas perigosas.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                        href="https://www.construct.net/en/free-online-games/time-voyager-57154/play" target="_blank">
+                        Jogar</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col">
+              <div class="card shadow-sm"><a
+                  href="https://www.construct.net/en/free-online-games/ghost-treasure-57347/play" target="_blank">
+                  <img src="../assets/ghost.png" alt="Sua Imagem" class="card-img-top" height="275"> </a>
+                <div class="card-body">
+                  <h3>Ghost treasure</h3>
+                  <p class="card-text">
+                    Lili, a exploradora, entra em uma casa mal assombrada em busca de tesouros, mas encontra um fantasma
+                    que a assusta. Ela deve pegar os tesouros e escapar de lá.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                        href="https://www.construct.net/en/free-online-games/ghost-treasure-57347/play" target="_blank">
+                        Jogar</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="col">
+              <div class="card shadow-sm"><a
+                href="https://www.construct.net/en/free-online-games/temporal-paradox-57362/play" target="_blank">
+                  <img src="../assets/temp.png" alt="Sua Imagem" class="card-img-top" height="275"> </a>
+                <div class="card-body">
+                  <h3>Temporal Paradox</h3>
+                  <p class="card-text">
+                    Um cientista descobre que o tempo está colapsando. Ele rouba uma máquina de viagem no tempo e embarca em aventuras para salvar o mundo. </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                        href="https://www.construct.net/en/free-online-games/temporal-paradox-57362/play"
+                        target="_blank"> Jogar</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm"><a
+                href="https://www.construct.net/en/free-online-games/tic-tac-boom-57344/play" target="_blank">
+                  <img src="../assets/tic.png" alt="Sua Imagem" class="card-img-top" height="275"> </a>
+                  <div class="card-body">
+                    <h3>Tic-Tac Boom!</h3>
+                    <p class="card-text">
+                      Como um soldado de elite do esquadrão de bombas, sua missão é usar as informações da bomba e do
+                      manual para desativá-la antes que o tempo acabe.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                          href="https://www.construct.net/en/free-online-games/tic-tac-boom-57344/play" target="_blank">
+                          Jogar</a></button>
+                        </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm"><a
+                  href="https://www.construct.net/en/free-online-games/star-defender-57360/play" target="_blank">
+                  <img src="../assets/star.png" alt="Sua Imagem" class="card-img-top" height="275"> </a>
+                  <div class="card-body">
+                  <h3>Star defender</h3>
+                  <p class="card-text">
+                    
+                    Como astronauta da naza, você é enviado em uma missão de foguete para eliminar alienígenas que invadem a órbita terrestre e salvar o planeta.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                        href="https://www.construct.net/en/free-online-games/star-defender-57360/play" target="_blank">
+                        Jogar</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col">
+              <div class="card shadow-sm"><a
+                  href="https://www.construct.net/en/free-online-games/the-jew-57607/play" target="_blank">
+                  <img src="../assets/jew.png" alt="Sua Imagem" class="card-img-top" height="275"> </a>
+                  <div class="card-body">
+                  <h3>Star defender</h3>
+                  <p class="card-text">
+                    
+                    O jogo segue Levi, um menino judeu em 1941, preso em um campo de concentração após perder sua família. Você controla sua fuga do local.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                        href="https://www.construct.net/en/free-online-games/the-jew-57607/play" target="_blank">
+                        Jogar</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col">
+              <div class="card shadow-sm"><a
+                  href="https://www.construct.net/en/free-online-games/escape-prisao-57276/play" target="_blank">
+                  <img src="../assets/prision.png" alt="Sua Imagem" class="card-img-top" height="275"> </a>
+                <div class="card-body">
+                  <h3>Escape from prision </h3>
+                  <p class="card-text">
+                    Um jogo em que o jogador elabora um plano de assalto a um banco, mas quando o plano dá errado, sua
+                    nova missão é escapar da prisão.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                        href="https://www.construct.net/en/free-online-games/escape-prisao-57276/play" target="_blank">
+                        Jogar</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col">
+              <div class="card shadow-sm"><a
+                  href="https://www.construct.net/en/free-online-games/amon-antigo-egito-57297/play" target="_blank">
+                  <img src="../assets/amon.png" alt="Sua Imagem" class="card-img-top" height="275"> </a>
+                <div class="card-body">
+                  <h3>Amon no antigo Egito</h3>
+                  <p class="card-text">
+                    Dentre os séculos, Amon enfrentará grandes desafios e inimigos. Ajude-o nessa jornada e ganhe as
+                    devidas gratificações!</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                        href="https://www.construct.net/en/free-online-games/amon-antigo-egito-57297/play"
+                        target="_blank"> Jogar</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm"><a
+                  href="https://www.construct.net/en/free-online-games/jailcat-57366/play" target="_blank">
+                  <img src="../assets/pol.png" alt="Sua Imagem" class="card-img-top" height="275"> </a>
+                  <div class="card-body">
+                  <h3>JailCat</h3>
+                  <p class="card-text">
+                    você é um gato que entrou dentro de uma prisão acidentalmente e agora precisa pular entre as cercas para escapar da prisão e ser finamente livre.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                        href="https://www.construct.net/en/free-online-games/jailcat-57366/play" target="_blank">
+                        Jogar</a></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            
+            <div class="col">
+              <div class="card shadow-sm"><a
+                  href="https://www.construct.net/en/free-online-games/escape-laboratorio-57149/play" target="_blank">
+                  <img src="../assets/laboratory.png" alt="Sua Imagem" class="card-img-top" height="275"> </a>
+                <div class="card-body">
+                  <h3>Escape do laboratório</h3>
+                  <p class="card-text">
+                    Os jogador acorda em um laboratório secreto e tenta descobrir como chegou lá. Ele precisa evitar
+                    ameaças tecnológicas para escapar.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                        href="https://www.construct.net/en/free-online-games/escape-laboratorio-57149/play"
+                        target="_blank"> Jogar</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="col">
+              <div class="card shadow-sm"><a
+                  href="https://www.construct.net/en/free-online-games/escape-home-57245/play" target="_blank">
+                  <img src="../assets/home.png" alt="Sua Imagem" class="card-img-top" height="275"> </a>
+                <div class="card-body">
+                  <h3>Escape home</h3>
+                  <p class="card-text">
+                    Kyle Robert perdeu os pais quando criança, e ele e o irmão Jimmy foram para um orfanato. Eles fogem
+                    em busca de uma vida melhor.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                        href="https://www.construct.net/en/free-online-games/escape-home-57245/play" target="_blank">
+                        Jogar</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col">
+              <div class="card shadow-sm"><a
+                href="https://www.construct.net/en/free-online-games/scape-from-the-killer-57345/play" target="_blank">
+                <img src="../assets/killer.png" alt="Sua Imagem" class="card-img-top" height="275"> </a>
+                <div class="card-body">
+                  <h3>Scape From The Killer</h3>
+                  <p class="card-text">
+                    O jogo é sobre um personagem chamado Jack que precisa sobreviver a um assassino que o persegue na noite.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                        href="https://www.construct.net/en/free-online-games/scape-from-the-killer-57345/play" target="_blank">
+                        Jogar</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+                
+                <div class="col">
+                  <div class="card shadow-sm"><a
+                      href="https://www.construct.net/en/free-online-games/demons-fruits-legends-57298/play"
+                      target="_blank">
+                      <img src="../assets/demon.png" alt="Sua Imagem" class="card-img-top" height="275"> </a>
+                    <div class="card-body">
+                      <h3>demons fruits legends</h3>
+                      <p class="card-text">
+                        O herói foi em busca de sua espada para se vingar do rei demônio tirano e partiu em busca da
+                        lendária espada Tushita.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <button type="button" class="btn btn-sm btn-outline-secondary"><a
+                            href="https://www.construct.net/en/free-online-games/demons-fruits-legends-57298/play"
+                            target="_blank"> Jogar</a></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+  </main>
+
+  <footer class="text-muted py-5">
+    <div class="container">
+      <p class="float-end mb-1">
+        <a href="#">Voltar ao início</a>
+      </p>
+      <p class="mb-1">Site desenvolvido por fhbaroni@gmail.com</p>
+
+    </div>
+  </footer>
+
+
+  <script src="/docs/5.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>

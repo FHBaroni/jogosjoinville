@@ -1,0 +1,12 @@
+.custom-gradient {
+    background: linear-gradient(to left,  #202B95, #C51C82, #EF7F0A );
+    color: #fff; /* Cor do texto */
+    padding: 20px;
+  }
+
+  .custom-gradient-vert {
+    background: linear-gradient(to top,  #202B95, #C51C82, #EF7F0A );
+    color: #fff; /* Cor do texto */
+    padding: 20px;
+  }
+  
